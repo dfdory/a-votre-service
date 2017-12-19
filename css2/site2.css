@@ -1,0 +1,84 @@
+.innerDIV{
+}
+
+.divCon{
+	width:85%;
+	border-bottom:8px solid #000;
+}
+
+.div-content-left{
+	width:30%;
+}
+
+.div-content-right{
+	width:60%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.div-content-right form input{
+	height:auto;
+	width:70%;
+	padding:10px 8px;
+	-webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+	box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+	-moz-transition: border linear 0.2s, box-shadow linear 0.2s;
+	-o-transition: border linear 0.2s, box-shadow linear 0.2s;
+	transition: border linear 0.2s, box-shadow linear 0.2s;
+	-webkit-transition: border linear 0.2s, box-shadow linear 0.2s;
+}
+
+.div-content-right form input[type=submit]{
+	margin-top:20px;
+}
+
+.div-content-right form label{
+	cursor:default;
+}
+
+.div-content-right form .firstLabel{
+	margin-bottom:-12px;
+	margin-top:35px;
+}
+
+.gest-left{
+	min-width:45% !important;
+	text-align:center;
+	color:#fff;
+	float:left;
+}
+
+.gest-right{
+	width:45% !important;
+	text-align:center;
+	float:right;
+}
+
+.box-content{
+	margin-top:60px;
+}
+
+.delay-box{
+	background-color:#7c4a8d;
+	padding:20px 10px;
+}
+
+.annonce-box{
+	background-color:#7c4a8d;
+	padding:20px 10px;
+}
+
+.annonce-box h3 {
+	color:#fff !important;
+	text-transform:uppercase;
+}
+
+.delay-box h3{
+	color:#fff !important;
+	text-transform:uppercase;
+}
+
+.delay-box img, .annonce-box img{
+	width:60px;
+}
+

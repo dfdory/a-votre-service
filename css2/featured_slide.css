@@ -1,0 +1,59 @@
+/*
+Template Name: PhotoMadness
+File: Featured Slider CSS
+Author: OS Templates
+Author URI: http://www.os-templates.com/
+Licence: <a href="http://www.os-templates.com/template-terms">Website Template Licence</a>
+*/
+
+#featured_slide{
+	display:block;
+	width:960px;
+	margin:0 auto;
+	padding:0;
+	overflow:hidden;
+	}
+
+#featured_slide, #featured_slide a{
+	color:#4A3F24;
+	background-color:#EAE4D3;
+	text-decoration:none;
+	}
+
+#featured_slide ul, #featured_slide p{
+	display:inline;
+	margin:0;
+	padding:0;
+	list-style:none;
+	}
+
+#featured_slide li{
+	display:inline;
+	float:left;
+	width:225px;
+	margin-right:20px;
+	}
+
+#featured_slide li.last{
+	margin-right:0;
+	}
+
+#featured_slide .title{
+	display:block;
+	margin:0 0 10px 0;
+	padding:0;
+	font-size:12px;
+	text-transform:uppercase;
+	}
+
+#featured_slide .imgholder{
+	padding-bottom:16px;
+	background:url("../images/shadow.gif") bottom center no-repeat;
+	}
+
+#featured_slide .indi{
+	color:#EAE4D3;
+	background-color:transparent;
+	cursor:move;
+	text-transform:uppercase;
+	}

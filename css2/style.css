@@ -1,0 +1,171 @@
+a, input, select, textarea {
+	outline: none !important;
+	-webkit-appearance: none;
+	-webkit-border-radius: 0;
+}
+
+a{
+	transition: all 0.2s ease-in-out;
+	-webkit-transition: all 0.2s ease-in-out;
+}
+body{
+	overflow-x:hidden;
+	position:relative;
+	margin: 0;
+	padding:0;
+	font-family: 'Muli', sans-serif;
+	font-weight:400;
+	font-size: 13px;
+	line-height: 20px;
+	color: #666666;
+	background: #ffa400;/*075d08*/
+}
+
+.box_shadow {
+	background:#fff;
+	padding:0 20px;
+	box-shadow:0 0 5px rgba(0,0,0,0.5);
+}
+
+.container{
+	margin-left:auto;
+	margin-right:auto;
+	width:950px;
+}
+
+.fleft{
+	float:left;
+}
+
+.logo{
+	width:31%
+}
+
+.fright{
+	float:right;
+	margin-top:28px;
+}
+
+.main-menu .nav li{
+	margin:0px;
+	padding:0px;
+	position:relative;
+	zoom:1;
+	display:inline-block;
+}
+
+.nav li:first-child{
+	border-left:Opx;
+	padding-left:0px;
+}
+
+#main-menu select{
+	display:none;
+	background-color:#f5f5f5;
+	border:1px solid #d7d7d7;
+	color:#666666;
+}
+
+.nav li:first-child a{
+	
+}
+
+.nav li a{
+	position:relative;
+	z-index:10;
+	padding:0 20px;
+	text-transform:uppercase;
+	font-family:Trebuchet Ms;
+	font-weight:400;
+	line-height:40px;
+	color:#666666;
+	font-size:12px;
+	text-align:left;
+	text-shadow:none;
+}
+
+.nav li:hover a,
+.nav li.current:hover a,
+.nav li.current a{
+	background:#58406f;
+	color:#fff;
+}
+
+
+.nav ul li {
+	background-color:#ff8800;
+}
+
+.sub-menu > a{
+	position:relative;
+}
+
+.nav ul{
+	position: absolute;
+	display: none;
+	width: 160px;
+	left: 0;
+	top: 40px;
+	list-style: none;
+	zoom: 1;
+	z-index: 9999;
+	padding: 0;
+	margin: 0;
+	border:1px solid #e0e0e0;
+	border-top:2px solid #58406f;
+}
+
+.nav .sub-menu li{
+	margin:0;
+	padding:0;
+	width:100%;
+	border-top: 1px solid #e0e0e0;
+}
+
+.nav .sub-menu li:first-child{
+	
+}
+
+.nav ul li a {
+	display: block;
+	margin: 0 !important;
+	padding: 7px 5px 7px 20px;
+	text-transform: none;
+	font-size: 12px;
+	font-weight:400;
+	color:#666666 !important;
+	line-height: 18px;
+	background:#fff !important;
+	text-shadow: none;
+	border: 0;
+	
+}
+
+.nav ul li a span {
+	display:none;
+}
+
+.nav > li > ul li > a:hover,
+.nav > li > ul li.current > a {
+	text-decoration: none;
+	color:#58406f !important;
+}
+
+.nav ul ul {
+  position: absolute;
+  display: none;
+  width: 133px;
+  left: 133px;
+  top: -6px;
+  height: auto;
+  list-style: none;
+  z-index: 111;
+  padding: 14px 0 7px 0;
+  margin: 0;
+  border-top:0;
+  z-index:9999;
+}
+
+.block {
+	padding-bottom:50px;
+}
